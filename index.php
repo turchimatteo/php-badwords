@@ -21,10 +21,7 @@
     </p>
     <!-- Una parola da censurare viene passata dall'utente tramite parametro GET. -->
     <p>
-        <?php
-        $censura = $_GET['censura'];
-        ?>
-        <p>Ciao, io mi chiamo <?php echo $_GET['***']; ?></p>
+        
     </p>
 </body>
 </html>
