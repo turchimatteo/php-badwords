@@ -22,7 +22,8 @@
     <!-- Una parola da censurare viene passata dall'utente tramite parametro GET. -->
     <p>
         <?php
-        $censuraPresentazione = str_replace('Roma', '***', $presentazione);
+        $parola = $_GET['Matteo'];
+        $censuraPresentazione = str_replace($parola, '***', $presentazione);
         echo 'Ciao mi chiamo ' . $censuraPresentazione;
         ?>
     </p>
